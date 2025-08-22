@@ -38,19 +38,18 @@ In each file, at the beginning, there is a more detailed desciption of the purpo
 of the code. Here is a very brief summary of each file:
 
 - main_ridge.py : implmentation of ridge regression on a rolling window to predict optimal 
-portfolio. The strategy was implemented to measure performance
-- in function of increasing number of radom features
+portfolio. The strategy was implemented to measure performance in function of increasing number of radom features
 - benchmarks.py : again applies the same model as before, but instead of increasing complexity
-via random features, focus on few "known" significant factors. This file takes imports a Series of returns,
+via random features, focus on few "known" significant factors. This file imports a Series of returns,
 and compares it with these benchmarks.
 - functions_ridge.py : includes the functions that indeed define our model
 
-### TransfmormerFlm
+### Transfmormer
 
  - main_file.py: implementation of our Transformer-based model. At the beginning
 one can change relative variables in order to tune "version" of the model and
-subset of the dataset on which apply the same.
- - vol_manager_updated.py : this file imports a Series of return and outputs
+subset of the dataset on which to apply the same.
+ - vol_manager_updated.py : this file imports a Series of returns and outputs
 an updated version of the same in function of a rolling volatility, similar to what we saw in class.
 
  - functions_file.py : includes the functions/classes that indeed define our model
